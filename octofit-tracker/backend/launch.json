@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Django Server",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/octofit-tracker/backend/manage.py",
+      "args": [
+        "runserver",
+        "0.0.0.0:8000"
+      ],
+      "django": true,
+      "env": {
+        "DJANGO_SETTINGS_MODULE": "octofit_tracker.settings"
+      },
+      "envFile": "${workspaceFolder}/octofit-tracker/backend/.env"
+    }
+  ]
+}

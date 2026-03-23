@@ -19,6 +19,9 @@ from rest_framework.routers import DefaultRouter
 from .views import UserViewSet, TeamViewSet, ActivityViewSet, WorkoutViewSet, LeaderboardEntryViewSet, api_root
 import os
 
+
+# Dynamically determine the base URL for API documentation or responses if needed
+# Do NOT hardcode $CODESPACE_NAME, always use the environment variable
 codespace_name = os.environ.get('CODESPACE_NAME')
 if codespace_name:
     base_url = f"https://{codespace_name}-8000.app.github.dev"
@@ -37,3 +40,8 @@ urlpatterns = [
     path('api/', api_root, name='api-root'),
     path('api/', include(router.urls)),
 ]
+
+# Note: All REST API endpoints are available at:
+#   https://$CODESPACE_NAME-8000.app.github.dev/api/[component]/
+#   or http://localhost:8000/api/[component]/
+# Do not hardcode $CODESPACE_NAME; use the environment variable as above.
