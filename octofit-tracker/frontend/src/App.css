@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+  background-color: #f0f8f0; /* Light green background */
+  color: #333; /* Dark text */
+  min-height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Custom styles for Octofit Tracker */
+
+/* Navigation menu */
+.navbar {
+  background-color: #4CAF50 !important; /* Green navbar */
+}
+
+.navbar-brand, .nav-link {
+  color: white !important;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+  color: #e8f5e8 !important; /* Light green on hover */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #2E7D32; /* Dark green headings */
+}
+
+/* Text */
+body, p, div {
+  color: #333;
+}
+
+/* Links */
+a {
+  color: #1976D2; /* Blue links */
+}
+
+a:hover {
+  color: #0D47A1; /* Darker blue on hover */
+}
+
+/* Tables */
+table {
+  background-color: white;
+  border-collapse: collapse;
+}
+
+table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #e8f5e8;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #2196F3 !important; /* Blue buttons */
+  border-color: #2196F3 !important;
+}
+
+.btn-primary:hover {
+  background-color: #1976D2 !important;
+  border-color: #1976D2 !important;
+}
+
+.btn-secondary {
+  background-color: #757575 !important;
+  border-color: #757575 !important;
+}
+
+.btn-secondary:hover {
+  background-color: #616161 !important;
+  border-color: #616161 !important;
+}
+
+/* Cards */
+.card {
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card-header {
+  background-color: #e8f5e8;
+  color: #2E7D32;
+}
+
+/* Container */
+.container {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
