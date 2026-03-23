@@ -46,14 +46,14 @@ const Users = () => {
 
   return (
     <div className="container">
-      <div className="card">
+      <div className="card shadow">
         <div className="card-header">
           <h2 className="card-title mb-0">Users</h2>
         </div>
         <div className="card-body">
           <div className="table-responsive">
             <table className="table table-striped table-hover">
-              <thead className="table-dark">
+              <thead>
                 <tr>
                   <th>ID</th>
                   <th>Username</th>

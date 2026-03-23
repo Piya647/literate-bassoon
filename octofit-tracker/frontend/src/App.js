@@ -29,13 +29,13 @@ function App() {
         <Routes>
           <Route path="/" element={
             <div className="container">
-              <div className="card mt-5">
+              <div className="card mt-5 shadow">
                 <div className="card-body text-center">
                   <h1 className="display-4">Welcome to Octofit Tracker</h1>
                   <p className="lead">Track your fitness activities, manage teams, and compete on the leaderboard!</p>
                   <div className="row">
                     <div className="col-md-4">
-                      <div className="card">
+                      <div className="card shadow">
                         <div className="card-body">
                           <h5 className="card-title">Activities</h5>
                           <p className="card-text">Log and track your fitness activities.</p>
@@ -44,7 +44,7 @@ function App() {
                       </div>
                     </div>
                     <div className="col-md-4">
-                      <div className="card">
+                      <div className="card shadow">
                         <div className="card-body">
                           <h5 className="card-title">Leaderboard</h5>
                           <p className="card-text">See how you rank against others.</p>
@@ -53,7 +53,7 @@ function App() {
                       </div>
                     </div>
                     <div className="col-md-4">
-                      <div className="card">
+                      <div className="card shadow">
                         <div className="card-body">
                           <h5 className="card-title">Teams</h5>
                           <p className="card-text">Create and manage your teams.</p>
@@ -64,7 +64,7 @@ function App() {
                   </div>
                   <div className="row mt-3">
                     <div className="col-md-6">
-                      <div className="card">
+                      <div className="card shadow">
                         <div className="card-body">
                           <h5 className="card-title">Users</h5>
                           <p className="card-text">Manage user profiles.</p>
@@ -73,7 +73,7 @@ function App() {
                       </div>
                     </div>
                     <div className="col-md-6">
-                      <div className="card">
+                      <div className="card shadow">
                         <div className="card-body">
                           <h5 className="card-title">Workouts</h5>
                           <p className="card-text">Plan and track your workouts.</p>
